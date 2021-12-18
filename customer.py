@@ -14,3 +14,9 @@ class Customer:
 
     def GetCustBalance(self):
         return self.custBalance
+    
+    def Withdraw(self, nominal):
+        self.custBalance -= nominal
+
+    def Deposit(self, nominal):
+        self.custBalance += nominal
