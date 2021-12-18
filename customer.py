@@ -1,4 +1,4 @@
-import atm_card
+from atm_card import ATMCard
 
 class Customer:
     def __init__(self, id, custPin = 1234, custBalance = 10000):

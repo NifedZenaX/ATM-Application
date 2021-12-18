@@ -3,8 +3,8 @@ class ATMCard:
         self.defaultPIN = defaultPIN
         self.defaultBalance = defaultBalance
     
-    def getPIN(self):
+    def GetPIN(self):
         return self.defaultPIN
 
-    def getBalance(self):
+    def GetBalance(self):
         return self.getBalance
